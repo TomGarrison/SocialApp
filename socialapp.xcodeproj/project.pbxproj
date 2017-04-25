@@ -13,6 +13,9 @@
 		20E5DF6D1EAFAF3A00E45A92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 20E5DF6C1EAFAF3A00E45A92 /* Assets.xcassets */; };
 		20E5DF701EAFAF3A00E45A92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20E5DF6E1EAFAF3A00E45A92 /* LaunchScreen.storyboard */; };
 		20E5DF781EAFAFF500E45A92 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 20E5DF771EAFAFF500E45A92 /* GoogleService-Info.plist */; };
+		20E5DF7D1EAFD43300E45A92 /* newView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5DF7C1EAFD43300E45A92 /* newView.swift */; };
+		20E5DF801EAFD4DE00E45A92 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5DF7F1EAFD4DE00E45A92 /* Constants.swift */; };
+		20E5DF821EAFD68400E45A92 /* roundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20E5DF811EAFD68400E45A92 /* roundBtn.swift */; };
 		4D3BF7CAF11C7A4949BE2FD1 /* Pods_socialapp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EA21A35F6414756852F9BE17 /* Pods_socialapp.framework */; };
 /* End PBXBuildFile section */
 
@@ -25,6 +28,9 @@
 		20E5DF6F1EAFAF3A00E45A92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		20E5DF711EAFAF3A00E45A92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		20E5DF771EAFAFF500E45A92 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		20E5DF7C1EAFD43300E45A92 /* newView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = newView.swift; sourceTree = "<group>"; };
+		20E5DF7F1EAFD4DE00E45A92 /* Constants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		20E5DF811EAFD68400E45A92 /* roundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = roundBtn.swift; sourceTree = "<group>"; };
 		534BD12E6399D1151C205AFF /* Pods-socialapp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socialapp.release.xcconfig"; path = "Pods/Target Support Files/Pods-socialapp/Pods-socialapp.release.xcconfig"; sourceTree = "<group>"; };
 		DFB4CC024473B4DFBCBA589A /* Pods-socialapp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-socialapp.debug.xcconfig"; path = "Pods/Target Support Files/Pods-socialapp/Pods-socialapp.debug.xcconfig"; sourceTree = "<group>"; };
 		EA21A35F6414756852F9BE17 /* Pods_socialapp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_socialapp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -63,6 +69,7 @@
 		20E5DF641EAFAF3A00E45A92 /* socialapp */ = {
 			isa = PBXGroup;
 			children = (
+				20E5DF7E1EAFD4CA00E45A92 /* Util */,
 				20E5DF791EAFB62200E45A92 /* Model */,
 				20E5DF7B1EAFB63100E45A92 /* Controller */,
 				20E5DF7A1EAFB62800E45A92 /* View */,
@@ -86,6 +93,8 @@
 		20E5DF7A1EAFB62800E45A92 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				20E5DF7C1EAFD43300E45A92 /* newView.swift */,
+				20E5DF811EAFD68400E45A92 /* roundBtn.swift */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -96,6 +105,14 @@
 				20E5DF671EAFAF3A00E45A92 /* SignInVc.swift */,
 			);
 			name = Controller;
+			sourceTree = "<group>";
+		};
+		20E5DF7E1EAFD4CA00E45A92 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				20E5DF7F1EAFD4DE00E45A92 /* Constants.swift */,
+			);
+			name = Util;
 			sourceTree = "<group>";
 		};
 		41801EE210DD59BB9C507EF7 /* Pods */ = {
@@ -240,7 +257,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				20E5DF681EAFAF3A00E45A92 /* SignInVc.swift in Sources */,
+				20E5DF821EAFD68400E45A92 /* roundBtn.swift in Sources */,
+				20E5DF7D1EAFD43300E45A92 /* newView.swift in Sources */,
 				20E5DF661EAFAF3A00E45A92 /* AppDelegate.swift in Sources */,
+				20E5DF801EAFD4DE00E45A92 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
